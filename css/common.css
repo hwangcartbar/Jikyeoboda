@@ -53,6 +53,10 @@ header .gnb a {
     text-decoration: none;
 }
 
+header .gnb li .on {
+    color: #0B50FD;
+}
+
 /* 상위 메뉴 */
 header .gnb-list {
     display: flex;
