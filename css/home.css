@@ -699,3 +699,199 @@
     outline: 3px solid #fff;
     outline-offset: 5px;
 }
+
+/* ============ response-area ============= */
+
+/* 권리와 제도 */
+.rights-area {
+    background: #fff;
+    color: #222;
+}
+
+.rights-area,
+.rights-area * {
+    box-sizing: border-box;
+}
+
+.rights-area>.inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+
+    width: calc(100% - 40px);
+    max-width: 1720px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+/* 왼쪽 설명 */
+.rights-content {
+    flex: 0 0 595px;
+}
+
+/* 공통 h2 스타일 유지 */
+.rights-title {
+    margin: 0;
+    white-space: nowrap;
+}
+
+.rights-description {
+    margin: 32px 0 0;
+    color: #454545;
+    font-family: "Pretendard", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+}
+
+/* 오른쪽 서비스 */
+.rights-services {
+    flex: 1;
+    min-width: 0;
+}
+
+/* 전체보기 */
+.rights-more {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    width: fit-content;
+    margin: 0 0 24px auto;
+
+    color: #222;
+    font-family: "Pretendard", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+    text-decoration: none;
+}
+
+.rights-more:hover {
+    color: #0B50FD;
+}
+
+/* 카드 4개 */
+.rights-list {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.rights-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 310px;
+    padding: 32px 12px;
+    border-radius: 24px;
+    background: #fff;
+    box-shadow: 0 6px 24px rgb(0 0 0 / 12%);
+
+    color: #222;
+    text-align: center;
+    text-decoration: none;
+
+    transition: transform 0.5s ease-in-out;
+}
+
+.rights-card:hover {
+    transform: translateY(-8px);
+}
+
+/* 공통 h4 스타일 유지 */
+.rights-card-title {
+    margin: 24px 0 0;
+    white-space: nowrap;
+}
+
+.rights-card-description {
+    margin: 8px 0 0;
+    color: #454545;
+    font-family: "Pretendard", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+}
+
+/* 이미지 아이콘 */
+.rights-icon {
+    display: block;
+    flex-shrink: 0;
+    width: 86px;
+    height: 86px;
+    object-fit: contain;
+}
+
+/* ============ rights-area ============= */
+
+/* 개인정보 보호 배너 */
+.protect-banner {
+    background: #0B50FD;
+}
+
+.protect-banner,
+.protect-banner * {
+    box-sizing: border-box;
+}
+
+.protect-banner>.inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+
+    width: calc(100% - 40px);
+    max-width: 1720px;
+    min-height: 496px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/* 왼쪽 문구 */
+.protect-banner-content {
+    flex: 1;
+}
+
+/* 공통 h2 스타일 유지 */
+.protect-banner-title {
+    margin: 0;
+    color: #fff;
+}
+
+.protect-banner-title span {
+    display: block;
+    white-space: nowrap;
+}
+
+.protect-banner-title span:last-child {
+    color: #f875ce;
+}
+
+.protect-banner-description {
+    margin: 32px 0 0;
+    color: #fff;
+    font-family: "Pretendard", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+}
+
+/* 오른쪽 캐릭터 */
+.protect-banner-character {
+    display: block;
+    flex-shrink: 0;
+    width: 780px;
+    height: 376px;
+    object-fit: contain;
+}
