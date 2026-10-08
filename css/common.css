@@ -101,8 +101,7 @@ header .gnb-submenu {
 }
 
 /* 마우스를 올린 메뉴만 열림 */
-header .gnb-item:hover>.gnb-submenu,
-header .gnb-item:focus-within>.gnb-submenu {
+header .gnb-item:hover>.gnb-submenu {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
@@ -267,6 +266,10 @@ header .submenu-group+.submenu-group {
     display: flex;
     align-items: center;
     gap: 50px;
+}
+
+.footer-links li:first-child a {
+    font-weight: 700;
 }
 
 .footer .footer-copyright {
