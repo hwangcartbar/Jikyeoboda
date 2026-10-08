@@ -7,6 +7,10 @@
     padding: 0;
 }
 
+body {
+    color: #454545;
+}
+
 /* 헤더 */
 header {
     position: relative;
@@ -68,7 +72,6 @@ header .gnb-item>a {
     display: flex;
     align-items: center;
     height: 80px;
-    color: #222;
     font-size: 20px;
     font-weight: 600;
     line-height: 1.4;
@@ -113,7 +116,6 @@ header .gnb-item:focus-within>.gnb-submenu {
 header .submenu-title {
     margin: 0 0 16px;
     padding: 0 10px;
-    color: #747b87;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.5;
@@ -129,7 +131,6 @@ header .submenu-list a {
     min-height: 50px;
     padding: 12px 32px 12px 10px;
     border-radius: 10px;
-    color: #222;
     font-size: 18px;
     font-weight: 600;
     line-height: 1.4;

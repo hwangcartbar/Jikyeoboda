@@ -1,0 +1,182 @@
+@charset "utf-8";
+@import url(./common.css);
+
+/* hear 영역 */
+.hero-area {
+    background: url(../images/home_Image/hero-bg.png) no-repeat center/cover;
+    width: 100%;
+    height: 784px;
+}
+
+.hero-area .inner {
+    position: relative;
+    height: 100%;
+}
+
+.hero-area .inner img {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-46%, -80%);
+}
+
+.search-area {
+    width: 800px;
+    max-width: 100%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-47%, 80%);
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 84px;
+    padding: 0 24px;
+    background: #fff;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.search-box input {
+    flex: 1;
+    min-width: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 22px;
+    opacity: 30%;
+}
+
+.search-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.search-btn img {
+    width: 24px;
+    height: 24px;
+}
+
+.search-tags {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.search-tags button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    background: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* ============ hero ============= */
+
+/* 개인정보 안내 섹션 */
+.privacy-intro {
+    background: #fff;
+    color: #454545;
+    padding: 64px 0 80px;
+}
+
+.privacy-intro,
+.privacy-intro * {
+    box-sizing: border-box;
+}
+
+.privacy-intro>.inner {
+    width: calc(100% - 40px);
+    max-width: 1720px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 80px;
+    align-items: start;
+}
+
+/* 왼쪽 제목 */
+.privacy-intro-title {
+    margin: 0;
+    font-family: "Gmarket Sans", sans-serif;
+    font-size: 108px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: -0.04em;
+}
+
+.privacy-intro-title span {
+    display: block;
+    white-space: nowrap;
+}
+
+.privacy-intro-title span:last-child {
+    color: #0B50FD;
+}
+
+/* 오른쪽 내용 */
+.privacy-intro-content {
+    min-width: 0;
+    padding-top: 12px;
+    font-family: "Pretendard", sans-serif;
+}
+
+.privacy-intro-description {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+}
+
+/* 하단 3개 문구 */
+/* 하단 강조 문구 3개 */
+.privacy-intro-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 32px;
+
+    margin: 40px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.privacy-intro-list li {
+    min-width: 0;
+}
+
+/* 90% / 3개 중 1개 / 매일 */
+.privacy-intro-value {
+    display: block;
+    margin-bottom: 16px;
+
+    /* font-family: "Gmarket Sans", sans-serif; */
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    white-space: nowrap;
+}
+
+/* 강조 문구 아래 설명 */
+.privacy-intro-list li p {
+    margin: 0;
+
+    color: #626262;
+    font-family: "Pretendard", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+    word-break: keep-all;
+}
