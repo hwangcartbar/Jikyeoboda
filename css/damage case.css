@@ -45,6 +45,7 @@
     height: 675px;
     border-radius: 24px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .damage-hero .left-img {
